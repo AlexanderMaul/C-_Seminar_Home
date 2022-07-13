@@ -5,5 +5,6 @@ Console.WriteLine("Введите первое целое число и нажм
 int num_A = Convert.ToInt32(Console.ReadLine());
 int num_B = Convert.ToInt32(Console.ReadLine());
 if(num_A > num_B) Console.WriteLine($"Число {num_A} является большим, а число {num_B} является меньшим");
-else Console.WriteLine($"Число {num_B} является большим, а число {num_A} является меньшим");
+else if(num_B > num_A) Console.WriteLine($"Число {num_B} является большим, а число {num_A} является меньшим");
+else Console.WriteLine($"Числа равны. Введите два разных числа");
 
