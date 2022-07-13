@@ -8,3 +8,5 @@ if(num_A > num_B) Console.WriteLine($"Число {num_A} является бол
 else if(num_B > num_A) Console.WriteLine($"Число {num_B} является большим, а число {num_A} является меньшим");
 else Console.WriteLine($"Числа равны. Введите два разных числа");
 
+
+// Комментарий преподавателя - По задаче 2 - ОК!
