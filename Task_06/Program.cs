@@ -7,3 +7,5 @@ int num = Convert.ToInt32(Console.ReadLine());
 if(num % 2 == 0) Console.WriteLine($"Число {num} является чётным");
 else Console.WriteLine($"Число {num} не является чётным");
 
+
+// Комментарий преподавателя - По задачам 6 и 8 всё верно!
