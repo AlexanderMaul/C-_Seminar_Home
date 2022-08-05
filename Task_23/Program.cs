@@ -1,6 +1,6 @@
 ﻿// 23. Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N
 
-Console.WriteLine("Программа нахождения квадратов для чисел от 1 до N");
+Console.WriteLine("Программа нахождения кубов для чисел от 1 до N");
 Console.Write("Введите число N: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
@@ -23,4 +23,4 @@ while (index <= num)
 // index++;
 // }
 
-// Console.WriteLine ($"Таблица квадратов чисел от 1 до {num}: {String.Join(", ",tableq)}");
+// Console.WriteLine ($"Таблица кубов чисел от 1 до {num}: {String.Join(", ",tableq)}");
