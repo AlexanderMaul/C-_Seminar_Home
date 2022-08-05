@@ -6,7 +6,6 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 string Plndr(int n)
 {
-    
     if (n / 100000 == 0 && n / 10000 != 0)
     {
         if (n / 1000 == (n % 100 / 10) + (n % 10 * 10)) return $"{num} -> Да";
