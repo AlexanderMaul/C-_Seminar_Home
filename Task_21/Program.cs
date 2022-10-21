@@ -42,3 +42,4 @@ double Dist (int x1c, int y1c, int x2c, int y2c, int z1c, int z2c)
 
 double result = Dist(x1, y1, x2, y2, z1, z2);
 Console.WriteLine($"Растояние между точками A и B: {result}");
+
