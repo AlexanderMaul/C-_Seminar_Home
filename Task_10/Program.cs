@@ -15,3 +15,4 @@ int Second = second(numA);
 string result = Second != 0 ? Second.ToString() : "Число не является трёхзначным";
 Console.WriteLine($"{numA} -> {result}");
 
+
