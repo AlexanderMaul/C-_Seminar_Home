@@ -24,3 +24,4 @@ while (index <= num)
 // }
 
 // Console.WriteLine ($"Таблица кубов чисел от 1 до {num}: {String.Join(", ",tableq)}");
+
